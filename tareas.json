@@ -18,5 +18,13 @@
     {
         "titulo": "Jugar Basket",
         "estado": "pendiente"
+    },
+    {
+        "titulo": "Sociales",
+        "estado": "pendiente"
+    },
+    {
+        "titulo": "Karate Class",
+        "estado": "pendiente"
     }
 ]

@@ -16,12 +16,15 @@ switch (accion) {
             estado: "pendiente"
         }
         guardarTarea(objeto)
+        console.log("Se ha creado la siguiente tarea: " + objeto.titulo + "-"+ objeto.estado)
         break;
     case 'filtrar':
         let estado = process.argv[3]
         let filtrar = filtrarPorEstado(estado)
-        console.log("Las siguientes tareas se encuentran: " + estado)
-        console.log(filtrar)
+        console.log("Las tareas con estado " + estado + " son:")
+        filtrar.forEach((element, indice) => {
+            return console.log((indice + 1) + ". " + element.titulo + "-" + element.estado)
+        })
         break;
     case undefined:
         console.log('Tenés que pasarme una acción');
