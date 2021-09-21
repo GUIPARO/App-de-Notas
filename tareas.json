@@ -26,5 +26,9 @@
     {
         "titulo": "Karate Class",
         "estado": "pendiente"
+    },
+    {
+        "titulo": "Node Class",
+        "estado": "pendiente"
     }
 ]

@@ -23,5 +23,6 @@ let filtrarPorEstado = function(busqueda){
     return filtrarJson.filter((elemento) => elemento.estado == busqueda)
 }
 
+
 module.exports = {archivoTareas, escribirJSON, guardarTarea,filtrarPorEstado}
 
